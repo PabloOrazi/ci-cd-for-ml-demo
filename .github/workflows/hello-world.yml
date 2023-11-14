@@ -4,7 +4,7 @@ on:
   # Specify the event that will trigger the workflow
   pull_request:
     branches: [ "main" ]
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
